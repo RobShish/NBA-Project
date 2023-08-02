@@ -1,6 +1,6 @@
  <h1 align="center">NBA Java Project</h1>
 
-For my final Programming 2 assignment, I was tasked with creating an application using Java/JavaFX to mimic an NBA season. We had to ensure team's and player's statistics could be dynamically changed and updated, the front end was uniform and consistent, and 
+For my final Programming 2 assignment, I was tasked with creating an application using Java/JavaFX to mimic an NBA season. We had to ensure team's and player's statistics could be dynamically changed and updated, the front end JavaFX was uniform and consistent with the examples given to us, and each functionality worked seamlessly, withstanding many different tests.
 
 <h2 align="center">Main Menu & Teams Menu</h2>
 <img src="https://github.com/RobShish/NBA-Project/assets/141095265/38a79320-7a4b-4014-985a-a077ab8b9f64" width="45%" align="center"/> <img src="https://github.com/RobShish/NBA-Project/assets/141095265/a7e556de-6b77-4c9b-be05-134da9f06b85" width="45%" align="center"/>
@@ -16,5 +16,5 @@ For my final Programming 2 assignment, I was tasked with creating an application
 <h2 align="center">Error Messages</h2>
 <img width="45%" alt="Screen Shot 2023-08-01 at 10 58 20 pm" src="https://github.com/RobShish/NBA-Project/assets/141095265/dd593bb0-82d0-4a35-be20-2b231fc1d53e"> <img width="45%" alt="Screen Shot 2023-08-02 at 1 33 53 pm" src="https://github.com/RobShish/NBA-Project/assets/141095265/33ac6d37-f7c4-464d-872b-d95e88d75636">
 
-<h2 align="center">Season Menu WIP</h2>
+<h2 align="center">Season Menu **WIP**</h2>
 <img width="40%" alt="Screen Shot 2023-08-02 at 1 44 40 pm" src="https://github.com/RobShish/NBA-Project/assets/141095265/3d39d7fa-0149-45a0-a1bc-dba037898d76"> <img width="50%" alt="Screen Shot 2023-08-02 at 1 47 03 pm" src="https://github.com/RobShish/NBA-Project/assets/141095265/d6a836e1-a4b0-4f6b-a73e-887b7b3a826d">
