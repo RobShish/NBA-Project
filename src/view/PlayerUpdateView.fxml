@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox fx:controller="controller.PlayerUpdateController" alignment="CENTER" prefHeight="400.0" prefWidth="600.0" spacing="20" styleClass="background" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" >
+    <padding>
+        <Insets bottom="10" left="5" right="5" top="10" />
+    </padding>
+
+    <stylesheets>
+        <URL value="@style.css" />
+    </stylesheets>
+    <children>
+        <GridPane>
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="label-h2" text="Player Details" GridPane.halignment="RIGHT">
+                    <GridPane.margin>
+                        <Insets right="20.0" />
+                    </GridPane.margin>
+                </Text>
+                <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="label-opac" text="Player Name:" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+                    <GridPane.margin>
+                        <Insets right="20.0" />
+                    </GridPane.margin>
+                </Text>
+                <TextField fx:id="playerNameTextField" prefHeight="31.0" prefWidth="215.0" styleClass="text-field" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                    <GridPane.margin>
+                        <Insets right="50.0" />
+                    </GridPane.margin>
+                </TextField>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="label-opac" text="Player Credit:" GridPane.halignment="RIGHT" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets right="20.0" />
+               </GridPane.margin>
+            </Text>
+            <TextField fx:id="playerCreditTextField" prefHeight="31.0" prefWidth="215.0" styleClass="text-field" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets right="50.0" />
+               </GridPane.margin>
+            </TextField>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="label-opac" text="Player Age:" GridPane.halignment="RIGHT" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets right="20.0" />
+               </GridPane.margin>
+            </Text>
+            <TextField fx:id="playerAgeTextField" prefHeight="31.0" prefWidth="215.0" styleClass="text-field" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets right="50.0" />
+               </GridPane.margin>
+            </TextField>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="label-opac" text="Player No:" GridPane.halignment="RIGHT" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets right="20.0" />
+               </GridPane.margin>
+            </Text>
+            <TextField fx:id="playerNoTextField" prefHeight="31.0" prefWidth="215.0" styleClass="text-field" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets right="50.0" />
+               </GridPane.margin>
+            </TextField>
+            </children>
+        </GridPane>
+        <HBox alignment="CENTER" prefHeight="97.0" prefWidth="535.0">
+            <children>
+            <Button fx:id="updateButton" onAction="#updatePlayer" mnemonicParsing="false" text="Update" />
+                <Button fx:id="addButton" onAction="#addPlayer" mnemonicParsing="false" text="Add">
+                    <HBox.margin>
+                        <Insets />
+                    </HBox.margin>
+                </Button>
+            <Button fx:id="closeButton" onAction="#close" mnemonicParsing="false" text="Close" />
+            </children>
+        </HBox>
+    </children>
+</VBox>
